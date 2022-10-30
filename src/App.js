@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {Container} from "./components/styles/Container.styled"
 
 function App() {
   return (
-    <div className="main-container">
+    <Container>
       <h1>Working ...</h1>
-    </div>
+    </Container>
   );
 }
 

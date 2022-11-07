@@ -7,3 +7,5 @@ const GlobalStyles = createGlobalStyle`
         margin: 0px;
     }
 `
+
+export default GlobalStyles

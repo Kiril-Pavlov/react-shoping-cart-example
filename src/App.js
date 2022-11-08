@@ -17,8 +17,10 @@ import { Container } from "./components/styles/Container.styled"
 
 const theme = {
   colors:{
-    header:"blue",
-    main:"red",
+    dark:"#111111",
+    light:"#EEEEEE",
+    primary:"red",
+    secondary:"lime",
   },
 }
 

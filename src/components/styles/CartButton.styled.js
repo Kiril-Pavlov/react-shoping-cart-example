@@ -4,13 +4,10 @@ export const CartButton = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 10px;
     background-color: transparent;
     outline: none;
     border: none;
-    img{
-        height: 20px;
-        color: red;
-    }
+    color:${({theme})=>theme.colors.primary};
 `
